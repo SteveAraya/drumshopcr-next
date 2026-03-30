@@ -40,6 +40,22 @@ export default function SiteHeader() {
             className="ml-2 px-4 py-2 rounded-full text-sm font-semibold bg-[#e63946] text-white hover:bg-[#c1121f] transition-colors">
             Contáctanos
           </Link>
+
+          {/* Social icons */}
+          <div className="flex items-center gap-1 ml-2 border-l border-white/10 pl-3">
+            <a href="https://www.facebook.com/Drum-Shop-Costa-Rica-245831729369183" target="_blank" rel="noopener" aria-label="Facebook"
+              className="w-8 h-8 flex items-center justify-center text-[#666] hover:text-white transition-colors">
+              <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+              </svg>
+            </a>
+            <a href="https://www.instagram.com/drumshopcr/?hl=es" target="_blank" rel="noopener" aria-label="Instagram"
+              className="w-8 h-8 flex items-center justify-center text-[#666] hover:text-white transition-colors">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-4 h-4">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+              </svg>
+            </a>
+          </div>
         </nav>
 
         {/* Hamburger */}
