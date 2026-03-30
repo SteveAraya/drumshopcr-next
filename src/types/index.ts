@@ -5,6 +5,7 @@ export type Category =
   | 'Baterías Electrónicas'
   | 'Redoblantes'
   | 'Platillos'
+  | 'Murat Diril'
   | 'Parches'
   | 'Hardware'
   | 'Guitarras'
@@ -15,6 +16,7 @@ export const CATEGORIES: Category[] = [
   'Baterías Electrónicas',
   'Redoblantes',
   'Platillos',
+  'Murat Diril',
   'Parches',
   'Hardware',
   'Guitarras',

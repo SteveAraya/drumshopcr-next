@@ -173,6 +173,26 @@ export default function CategoryIcon({ category, className = 'w-10 h-10' }: Prop
         </svg>
       )
 
+    case 'Murat Diril':
+      return (
+        <svg {...props}>
+          {/* Cymbal body */}
+          <ellipse cx="16" cy="20" rx="13" ry="5" fill="none" stroke="currentColor" strokeWidth="2"/>
+          <path d="M3 20 Q3 15 16 15 Q29 15 29 20" fill="currentColor" opacity="0.12"/>
+          <path d="M3 20 Q3 15 16 15 Q29 15 29 20" fill="none" stroke="currentColor" strokeWidth="2"/>
+          {/* Bell */}
+          <ellipse cx="16" cy="15" rx="3.5" ry="2"/>
+          {/* Stand */}
+          <line x1="16" y1="11" x2="16" y2="5" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+          <line x1="13" y1="5" x2="19" y2="5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+          {/* Grooves */}
+          <ellipse cx="16" cy="18" rx="7" ry="2" fill="none" stroke="currentColor" strokeWidth="1" opacity="0.4"/>
+          {/* "M" monogram on bell */}
+          <text x="16" y="16.5" textAnchor="middle" fontSize="4.5" fontWeight="bold"
+            fontFamily="sans-serif" fill="currentColor" opacity="0.9">M</text>
+        </svg>
+      )
+
     case 'Otros':
       return (
         <svg {...props}>
